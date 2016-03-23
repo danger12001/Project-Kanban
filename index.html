@@ -1,18 +1,99 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <link  rel="stylesheet" href="css/style.css">
-<title> Project-Kanban </title>
-
-</head>
-<body>
-  <div id="todo" class="headings"> </div>
-  <div id="doing" class="headings"> </div>
-  <div id="done" class="headings"> </div>
-</body>
-
-<script src="script.js" charset="utf8"></script>
-
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Project-Kanban </title>
+    <link  rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="headings">
+    <div id="todo" class="col-md-5"> To do </div>
+    <div id="doing" class="col-md-2"> Doing
+    </div>
+    <div id="done" class="col-md-5"> Done
+    </div>
+  </div>
+  <div id="swimlane1" class="swimlane">
+  <div id="catagory" class="col-md-2"> catagory </div>
+<div id="r1gb1" class="col-md-1"> </div>
+<div id="r1gb2" class="col-md-1"> </div>
+<div id="r1gb3" class="col-md-1"> </div>
+<div id="r1gb4" class="col-md-1"> </div>
+<div id="r1gb5" class="col-md-1"> </div>
+<div id="r1gb6" class="col-md-1"> </div>
+<div id="r1gb7" class="col-md-1"> </div>
+<div id="r1gb8" class="col-md-1"> </div>
+<div id="r1gb9" class="col-md-1"> </div>
+<div id="r1gb10" class="col-md-1"> </div>
+<!-- row 2 -->
+<div id="r2gb1" class="col-md-1"> </div>
+<div id="r2gb2" class="col-md-1"> </div>
+<div id="r2gb3" class="col-md-1"> </div>
+<div id="r2gb4" class="col-md-1"> </div>
+<div id="r2gb5" class="col-md-1"> </div>
+<div id="r2gb6" class="col-md-1"> </div>
+<div id="r2gb7" class="col-md-1"> </div>
+<div id="r2gb8" class="col-md-1"> </div>
+<div id="r2gb9" class="col-md-1"> </div>
+<div id="r2gb10" class="col-md-1"> </div>
+<!-- row 3 -->
+<div id="r3gb1" class="col-md-1"> </div>
+<div id="r3gb2" class="col-md-1"> </div>
+<div id="r3gb3" class="col-md-1"> </div>
+<div id="r3gb4" class="col-md-1"> </div>
+<div id="r3gb5" class="col-md-1"> </div>
+<div id="r3gb6" class="col-md-1"> </div>
+<div id="r3gb7" class="col-md-1"> </div>
+<div id="r1gb8" class="col-md-1"> </div>
+<div id="r1gb9" class="col-md-1"> </div>
+<div id="r1gb10" class="col-md-1"> </div>
+  </div>
+  <div id="swimlane2" class="swimlane">
+    <div id="catagory2" class="col-md-2"> catagory </div>
+  <div id="r1gb11" class="col-md-1"> </div>
+  <div id="r1gb12" class="col-md-1"> </div>
+  <div id="r1gb13" class="col-md-1"> </div>
+  <div id="r1gb14" class="col-md-1"> </div>
+  <div id="r1gb15" class="col-md-1"> </div>
+  <div id="r1gb16" class="col-md-1"> </div>
+  <div id="r1gb17" class="col-md-1"> </div>
+  <div id="r1gb18" class="col-md-1"> </div>
+  <div id="r1gb19" class="col-md-1"> </div>
+  <div id="r1gb20" class="col-md-1"> </div>
+  <!-- row 2 -->
+  <div id="r2gb11" class="col-md-1"> </div>
+  <div id="r2gb12" class="col-md-1"> </div>
+  <div id="r2gb13" class="col-md-1"> </div>
+  <div id="r2gb14" class="col-md-1"> </div>
+  <div id="r2gb15" class="col-md-1"> </div>
+  <div id="r2gb16" class="col-md-1"> </div>
+  <div id="r2gb17" class="col-md-1"> </div>
+  <div id="r2gb18" class="col-md-1"> </div>
+  <div id="r2gb19" class="col-md-1"> </div>
+  <div id="r2gb20" class="col-md-1"> </div>
+  <!-- row 3 -->
+  <div id="r3gb11" class="col-md-1"> </div>
+  <div id="r3gb12" class="col-md-1"> </div>
+  <div id="r3gb13" class="col-md-1"> </div>
+  <div id="r3gb14" class="col-md-1"> </div>
+  <div id="r3gb15" class="col-md-1"> </div>
+  <div id="r3gb16" class="col-md-1"> </div>
+  <div id="r3gb17" class="col-md-1"> </div>
+  <div id="r1gb18" class="col-md-1"> </div>
+  <div id="r1gb19" class="col-md-1"> </div>
+  <div id="r1gb20" class="col-md-1"> </div>
+  </div>
+  <button id="sticky" class="btn btn-lg btn-primary"> New Sticky </button>
+  <div id="newsticky" class="col-md-1">  </div>
+  <!-- <input id="textbox" type="text"> </input> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="script.js" charset="utf8"></script>
+  </body>
+</html>
 
 
 
